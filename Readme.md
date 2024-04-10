@@ -18,4 +18,4 @@
   
 ![demo1](./screenshots/screenshot1.png)
 ![demo2](./screenshots/screenshot2.png)
-![demo3](./screenshots/screenshot2.png)
+![demo3](./screenshots/screenshot3.png)
