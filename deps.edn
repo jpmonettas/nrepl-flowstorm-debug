@@ -1,0 +1,8 @@
+{:deps {cider/cider-nrepl {:mvn/version "0.47.1"}
+        nrepl/nrepl {:mvn/version "1.1.1"}}
+ :aliases {:dev {:classpath-overrides {org.clojure/clojure nil}
+                 :extra-deps {com.github.flow-storm/clojure {:mvn/version "1.12.0-alpha9_4"}
+                              com.github.flow-storm/flow-storm-dbg {:git/url "https://github.com/flow-storm/flow-storm-debugger/"
+                                                                    :sha "b159c2df4cbde84de2b2bbb45fea8c92830d8b21"}}
+                 :jvm-opts ["-Dclojure.storm.instrumentEnable=true"
+                            "-Dclojure.storm.instrumentOnlyPrefixes=cider,nrepl"]}}}
