@@ -15,3 +15,7 @@
   - Run something in your editor repl so it sends messages to our nrepl server
   - Pause recording (optionally in case your editor keeps sending ping messages or something)
   - Analize your recordings (if you don't know how to use FlowStorm type `:tut/basics` at the repl)
+  
+![demo1](./screenshots/screenshot1.png)
+![demo2](./screenshots/screenshot2.png)
+![demo3](./screenshots/screenshot2.png)
