@@ -13,7 +13,7 @@
   - Clear any old recordings (Ctrl-l)
   - Run something in your editor repl so it sends messages to our nrepl server
   - Pause recording (optionally in case your editor keeps sending ping messages or something)
-  - Analize your recordings (if you don't know how to use FlowStorm type `:tut/basics` at the repl)
+  - Analize your recordings (if you don't know how to use FlowStorm goto Help menu -> Tutorial or User's Guide)
   
 ![demo1](./screenshots/screenshot1.png)
 ![demo2](./screenshots/screenshot2.png)
